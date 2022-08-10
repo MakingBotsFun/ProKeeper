@@ -6,8 +6,6 @@ from nextcord.abc import GuildChannel
 from nextcord.ext import commands
 from config import *
 import config
-import keep_alive
-keep_alive.keep_alive()
 
 client = commands.Bot(command_prefix='pk!')
 
